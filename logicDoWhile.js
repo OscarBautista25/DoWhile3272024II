@@ -6,6 +6,7 @@ do {
     switch (opcion) {
         case 1:
             numeroEntrada = parseInt(prompt("Ingrese un número para calcularle el factorial"));
+            resultadoFactorial=1;
             for (let i = 1; i <= numeroEntrada; i++) {
                 resultadoFactorial=resultadoFactorial*i;
                 
